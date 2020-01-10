@@ -2,8 +2,8 @@ const express = require('express');
 const path = require('path');
 const graphqlHTTP = require('express-graphql');
 const mongoose = require('mongoose');
-const rootResolver = require('./resolvers/index');
-const graphQlSchema = require('./schema/index');
+const rootResolver = require('./server/resolvers/index');
+const graphQlSchema = require('./server/schema/index');
 const generatePassword =  require('password-generator');
 
 const app = express();
