@@ -43,7 +43,7 @@ const port = process.env.PORT || 4000;
 mongoose.set( 'useNewUrlParser', true );
 mongoose.set( 'useUnifiedTopology', true );
 mongoose
-.connect(`mongodb+srv://Arif:1rhOBA0OhcYaOg5w@cluster0-p8tzi.mongodb.net/profiling-app?retryWrites=true&w=majority`)
+.connect(`mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@cluster0-p8tzi.mongodb.net/${process.env.PROJECT_NAME}?retryWrites=true&w=majority`)
 .then(() => {
     app.listen(port);
     console.log(`Running a GraphQL API server at http://localhost:${port}/graphql`);
