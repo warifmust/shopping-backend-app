@@ -40,6 +40,8 @@ app.get('*', (req, res) => {
 });
 
 const port = process.env.PORT || 4000;
+mongoose.set( 'useNewUrlParser', true );
+mongoose.set( 'useUnifiedTopology', true );
 mongoose
 .connect(`mongodb+srv://Arif:1rhOBA0OhcYaOg5w@cluster0-p8tzi.mongodb.net/profiling-app?retryWrites=true&w=majority`)
 .then(() => {
