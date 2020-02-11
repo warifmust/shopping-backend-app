@@ -9,7 +9,7 @@ class App extends Component {
   // Fetch passwords after first mount
   componentDidMount() {
     this.getPasswords();
-    // this.getLazadaRequest();
+    this.getLazadaRequest();
   }
 
   getPasswords = () => {
@@ -19,16 +19,39 @@ class App extends Component {
       .then(passwords => this.setState({ passwords }));
   };
 
-  // getLazadaRequest = () => {
-  //   const lazadaApi = new LazadaApi(appKey, appSecret, 'MALAYSIA');
-  //   lazadaApi
-  //     .generateAccessToken({ code: 'auth_code' })
-  //     .then(response => {
-  //       const { access_token } = response; // JSON data from Lazada's API
-  //       console.log(access_token);
-  //     })
-  //     .catch(err => console.log(err));
-  // };
+  getLazadaRequest = async () => {
+    // const lazadaApi = new LazadaApi(
+    //   '116437',
+    //   's07TFkZNuVslzMAc9GbgSQ6emxn0NrOK',
+    //   'MALAYSIA'
+    // );
+    // lazadaApi
+    //   .generateAccessToken({ code: 'auth_code' })
+    //   .then(response => {
+    //     const { access_token } = response; // JSON data from Lazada's API
+    //     console.log(access_token);
+    //   })
+    //   .catch(err => console.log(err));
+
+    const data = {
+      url: 'https://buatpc.my',
+      appKey: '116437',
+      appSecret: 's07TFkZNuVslzMAc9GbgSQ6emxn0NrOK'
+    };
+    const response = await fetch(
+      'https://auth.lazada.com/rest/auth/token/create',
+      {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+      }
+    );
+    const a = await response.json();
+    console.log(a);
+  };
 
   render() {
     const { passwords } = this.state;
