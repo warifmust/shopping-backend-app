@@ -1,11 +1,11 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "This is server side for Profiling app",
+  "description": "This is server side for Setel Mart",
   "main": "index.js",
   "scripts": {
     "start": "ts-node index.ts",
-    "build": "tsc",
+    "tsc": "tsc",
     "test": "jest"
   },
   "author": "Arif Mustaffa",
