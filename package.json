@@ -4,9 +4,8 @@
   "description": "This is server side for Profiling app",
   "main": "index.js",
   "scripts": {
-    "start": "yarn build:ts && ts-node index.ts",
-    "build": "ts-node index.ts",
-    "build:ts": "tsc",
+    "start": "ts-node index.ts",
+    "build": "tsc",
     "test": "jest"
   },
   "author": "Arif Mustaffa",
