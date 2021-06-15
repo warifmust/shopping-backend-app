@@ -1,6 +1,6 @@
 # Setel Fullstack Challenge 
 
-This is a Setel Fullstack Challenge back end repositiry. To start:
+This is a Setel Fullstack Challenge back end repository. To start:
 
 ```bash
 git clone
