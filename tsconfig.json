@@ -7,9 +7,9 @@
     "sourceMap": true,
     "strict": true,
     "esModuleInterop": true,
-    "target": "es2017",
+    "target": "es2017"
   },
   "compileOnSave": true,
-  "include": ["server/**/*.ts", "server/*.log"],
+  "include": ["**/*.ts", "server/**/*.ts", "server/*.log"],
   "exclude": ["node_modules", "lib", "tests"]
 }
