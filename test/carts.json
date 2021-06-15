@@ -1,0 +1,110 @@
+[
+  {
+    "_id": {
+      "$oid": "60c80a2e140af340f38599d7"
+    },
+    "name": "Banana",
+    "img": "https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1109&q=80",
+    "price": "2",
+    "nutrient": "Lorem ipsum dolor emet.",
+    "belongsTo": "60c1a0520818e63d7fb04a68",
+    "status": "unpaid",
+    "created_at": {
+      "$date": "2021-06-15T02:02:22.566Z"
+    },
+    "updated_at": {
+      "$date": "2021-06-15T02:02:22.566Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60c833a605308dd9789a7b73"
+    },
+    "name": "Apple",
+    "img": "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80F",
+    "price": "1",
+    "nutrient": "Lorem ipsum dolor emet.",
+    "belongsTo": "60c19fc50818e63d7fb04a67",
+    "status": "unpaid",
+    "created_at": {
+      "$date": "2021-06-15T04:59:18.542Z"
+    },
+    "updated_at": {
+      "$date": "2021-06-15T04:59:18.542Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60c833a705308dd9789a7b74"
+    },
+    "name": "Mango",
+    "img": "https://images.unsplash.com/photo-1553279768-865429fa0078?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
+    "price": "5",
+    "nutrient": "Lorem ipsum dolor emet.",
+    "belongsTo": "60c19fc50818e63d7fb04a67",
+    "status": "unpaid",
+    "created_at": {
+      "$date": "2021-06-15T04:59:19.793Z"
+    },
+    "updated_at": {
+      "$date": "2021-06-15T04:59:19.793Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60c833a805308dd9789a7b75"
+    },
+    "name": "Banana",
+    "img": "https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1109&q=80",
+    "price": "2",
+    "nutrient": "Lorem ipsum dolor emet.",
+    "belongsTo": "60c19fc50818e63d7fb04a67",
+    "status": "unpaid",
+    "created_at": {
+      "$date": "2021-06-15T04:59:20.693Z"
+    },
+    "updated_at": {
+      "$date": "2021-06-15T04:59:20.693Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60c833a905308dd9789a7b76"
+    },
+    "name": "Lemon",
+    "img": "https://images.unsplash.com/photo-1594304466740-01a51b280fd3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80",
+    "price": "1",
+    "nutrient": "Lorem ipsum dolor emet.",
+    "belongsTo": "60c19fc50818e63d7fb04a67",
+    "status": "unpaid",
+    "created_at": {
+      "$date": "2021-06-15T04:59:21.806Z"
+    },
+    "updated_at": {
+      "$date": "2021-06-15T04:59:21.806Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60c8342805308dd9789a7b77"
+    },
+    "name": "Apple",
+    "img": "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80F",
+    "price": "1",
+    "nutrient": "Lorem ipsum dolor emet.",
+    "belongsTo": "60c19fc50818e63d7fb04a67",
+    "status": "unpaid",
+    "created_at": {
+      "$date": "2021-06-15T05:01:28.964Z"
+    },
+    "updated_at": {
+      "$date": "2021-06-15T05:01:28.964Z"
+    },
+    "__v": 0
+  }
+]

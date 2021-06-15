@@ -1,0 +1,38 @@
+[
+  {
+    "_id": {
+      "$oid": "60c19fc50818e63d7fb04a67"
+    },
+    "name": "Arif",
+    "email": "test@test.com",
+    "password": "$2a$12$zsWxPSomwJ7YY7XA8f2T.O6dsjqO.fqwaOXA4GbDAQXGflN6JqXm.",
+    "phoneNumber": "0123456789",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60c1a0520818e63d7fb04a68"
+    },
+    "name": "Arif Two",
+    "email": "test2@test.com",
+    "password": "$2a$12$MbNoaB12T64CpBGOmkiPRekzjAP/jmWnoLIBEzecjPxe29/Jv.Pxy",
+    "phoneNumber": "0123456789",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60c4d7d64ff15fecadad2942"
+    },
+    "name": "Arif",
+    "email": "test3@test.com",
+    "password": "$2a$12$QQOvFncVh7hiD3f0r7H8heHhWPNSMHoNDvoNtkJ9gr3RSMrsD1k2y",
+    "phoneNumber": "012345678",
+    "created_at": {
+      "$date": "2021-06-12T15:50:46.931Z"
+    },
+    "updated_at": {
+      "$date": "2021-06-12T15:50:46.931Z"
+    },
+    "__v": 0
+  }
+]

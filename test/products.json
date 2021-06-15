@@ -1,0 +1,130 @@
+[
+  {
+    "_id": {
+      "$oid": "60c3bebdc1b45f28518d4682"
+    },
+    "name": "Apple",
+    "img": "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80F",
+    "price": "1",
+    "nutrient": "Lorem ipsum dolor emet.",
+    "created_at": {
+      "$date": "2021-06-11T19:51:25.087Z"
+    },
+    "updated_at": {
+      "$date": "2021-06-11T19:51:25.087Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60c3bf5f3563312952790896"
+    },
+    "name": "Mango",
+    "img": "https://images.unsplash.com/photo-1553279768-865429fa0078?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
+    "price": "5",
+    "nutrient": "Lorem ipsum dolor emet.",
+    "created_at": {
+      "$date": "2021-06-11T19:54:07.284Z"
+    },
+    "updated_at": {
+      "$date": "2021-06-11T19:54:07.284Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60c3bf9d3563312952790897"
+    },
+    "name": "Banana",
+    "img": "https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1109&q=80",
+    "price": "2",
+    "nutrient": "Lorem ipsum dolor emet.",
+    "created_at": {
+      "$date": "2021-06-11T19:55:09.168Z"
+    },
+    "updated_at": {
+      "$date": "2021-06-11T19:55:09.168Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60c3bfc43563312952790898"
+    },
+    "name": "Lemon",
+    "img": "https://images.unsplash.com/photo-1594304466740-01a51b280fd3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80",
+    "price": "1",
+    "nutrient": "Lorem ipsum dolor emet.",
+    "created_at": {
+      "$date": "2021-06-11T19:55:48.630Z"
+    },
+    "updated_at": {
+      "$date": "2021-06-11T19:55:48.630Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60c3bff43563312952790899"
+    },
+    "name": "Strawberry",
+    "img": "https://images.unsplash.com/photo-1583070161414-7314e034d18b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+    "price": "1",
+    "nutrient": "Lorem ipsum dolor emet.",
+    "created_at": {
+      "$date": "2021-06-11T19:56:36.211Z"
+    },
+    "updated_at": {
+      "$date": "2021-06-11T19:56:36.211Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60c3c019356331295279089a"
+    },
+    "name": "Grape",
+    "img": "https://images.unsplash.com/photo-1565098772267-60af42b81ef2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1084&q=80",
+    "price": "13",
+    "nutrient": "Lorem ipsum dolor emet.",
+    "created_at": {
+      "$date": "2021-06-11T19:57:13.118Z"
+    },
+    "updated_at": {
+      "$date": "2021-06-11T19:57:13.118Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60c3c057356331295279089b"
+    },
+    "name": "Kiwi",
+    "img": "https://images.unsplash.com/photo-1552801386-22419317d4d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+    "price": "10",
+    "nutrient": "Lorem ipsum dolor emet.",
+    "created_at": {
+      "$date": "2021-06-11T19:58:15.906Z"
+    },
+    "updated_at": {
+      "$date": "2021-06-11T19:58:15.906Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60c3c080356331295279089c"
+    },
+    "name": "Watermelon",
+    "img": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "price": "5",
+    "nutrient": "Lorem ipsum dolor emet.",
+    "created_at": {
+      "$date": "2021-06-11T19:58:56.500Z"
+    },
+    "updated_at": {
+      "$date": "2021-06-11T19:58:56.500Z"
+    },
+    "__v": 0
+  }
+]
