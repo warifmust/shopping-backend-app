@@ -1,6 +1,6 @@
-# Setel Fullstack Challenge 
+# Shopping Engine 
 
-This is a Setel Fullstack Challenge back end repository. To start:
+This is a Shopping Engine back end repository. To start:
 
 ```bash
 git clone
